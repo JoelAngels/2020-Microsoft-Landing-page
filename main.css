@@ -283,3 +283,11 @@ header a:hover {
 .follow a {
     margin-left: 20px;
 }
+
+.links {
+    background: #f2f2f2;
+    color: #616161;
+    padding: 35px 0;
+    font-size: 13px;
+}
+
