@@ -151,10 +151,9 @@ header a:hover {
 }
 
 .icons {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 0 auto;
     cursor: pointer;
 }
 
@@ -163,6 +162,12 @@ header a:hover {
     margin: 0 auto;
     padding: 50px 30px;
     margin-bottom: 20px;
+    text-align: center;
+}
+
+.item h3:hover {
+    border-bottom: 1px solid #000;
+    opacity: .7;
 }
 
 .item h3 {
@@ -218,7 +223,7 @@ header a:hover {
 
 .xbox {
     width: 100%;
-    background: url('https://cdn.mos.cms.futurecdn.net/6v88uZXKLyWpMrCrC6HAvf.jpg');
+    background: url('https://cdn.mos.cms.futurecdn.net/6v88uZXKLyWpMrCrC6HAvf.jpg')no-repeat center center/cover;
     height: 500px;
     margin-bottom: 30px;
     display: flex;
@@ -363,3 +368,27 @@ header a:hover {
     font-size: 12px;
 }
 
+@media only screen and (max-width: 500px) {
+    .content {
+        width: 100%;
+    }
+    header {
+        display: none;
+    }
+    .icons {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .xbox {
+        color: #fff;
+    }
+    .xbox h1 {
+        color: #000;
+    }
+    .xbox p {
+        display: none;
+    }
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+  }
