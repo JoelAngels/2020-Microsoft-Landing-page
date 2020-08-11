@@ -411,3 +411,35 @@ header a:hover {
         grid-template-columns: repeat(2, 1fr);
     }
   }
+  
+@media only screen and (max-width: 800px) {
+    .icons {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .xbox .content {
+        padding-top: 90px;
+        margin-right: 50px;
+    }
+    .showcas {
+        background: url('https://i.ytimg.com/vi/1Q8fG0TtVAY/hqdefault.jpg')no-repeat center center/cover;
+    }
+    .showcas .contents {
+        width: 100%;
+        position: relative;
+        bottom: 15px;
+    }
+    .contents p {
+        color: #000;
+        font-weight: 700;
+    }
+    .follow {
+        justify-content: center;
+        align-items: center;
+    }
+    .links-inner {  
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
