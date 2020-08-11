@@ -390,5 +390,24 @@ header a:hover {
     .cards {
         grid-template-columns: repeat(2, 1fr);
     }
-    
+    .showcas {
+        width: 100%;
+        background: url('https://cellularnews.com/wp-content/uploads/2020/04/brave-wonderwoman-325x485.jpg')no-repeat center center/cover;
+    }
+    .contents {
+        width: 100%;
+    }
+    .contents h1 {
+        color:#000;
+    }
+    .contents p {
+        display: none;
+    }
+    .follow {
+        justify-content: center;
+        align-items: center;
+    }
+    .links-inner {  
+        grid-template-columns: repeat(2, 1fr);
+    }
   }
