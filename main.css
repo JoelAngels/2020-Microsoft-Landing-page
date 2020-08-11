@@ -191,9 +191,10 @@ header a:hover {
 
 .cards a {
     margin-top:10px;
-    color:#005ea8;
+    color: #0067b8;
+    font-weight: normal;
     display: inline-block;
-    transition: .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .cards span {
@@ -314,3 +315,4 @@ header a:hover {
 .links ul li a:hover {
     border-bottom: 1px solid #000;
 }
+
